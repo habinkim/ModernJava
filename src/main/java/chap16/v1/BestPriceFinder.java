@@ -16,7 +16,7 @@ public class BestPriceFinder {
         new Shop("BuyItAll")
     );
 
-    private final Executor executor = Executors.newFixedThreadPool(shops.size(), (Runnable r) -> {
+    private final Executor executor = Executors.newFixedThreadPool(Math.min(shops.size(), 100), (Runnable r) -> {
         Thread t = new Thread(r);
         t.setDaemon(true);
         return t;

@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BestPriceFinderMain",
+            "request": "launch",
+            "mainClass": "chap16.BestPriceFinderMain",
+            "projectName": "Modern_Java_study"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestPriceFinderMain",
+            "request": "launch",
+            "mainClass": "chap16.v1.BestPriceFinderMain",
+            "projectName": "Modern_Java_study"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShopMain",
+            "request": "launch",
+            "mainClass": "chap16.v1.ShopMain",
+            "projectName": "Modern_Java_study"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CorpCarApplication",
+            "request": "launch",
+            "mainClass": "com.bpnsolution.corpcar.CorpCarApplication",
+            "projectName": "CorpCar"
+        }
+    ]
+}

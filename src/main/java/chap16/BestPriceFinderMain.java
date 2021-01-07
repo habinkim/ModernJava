@@ -1,4 +1,4 @@
-package chap16.v1;
+package chap16;
 
 import java.util.List;
 import java.util.function.Supplier;
@@ -9,8 +9,7 @@ public class BestPriceFinderMain {
 
     public static void main(String[] args) {
         execute("sequential", () -> bestPriceFinder.findPricesSequential("myPhone27S"));
-        execute("parallel", () -> bestPriceFinder.findPricesParallel("myPhone27S"));
-        execute("composed CompletableFuture", () -> bestPriceFinder.findPricesFuture("myPhone27S"));
+        
     }
 
     private static void execute(String msg, Supplier<List<String>> s) {
